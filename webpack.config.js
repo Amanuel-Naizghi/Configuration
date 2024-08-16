@@ -4,7 +4,7 @@
 //create your src folder add up the necessary files you want to work on
 
 const path=require('path');
-const HtmlWebpackPlugin=require('html-webpack-plugin');//Write a command in CLI npm install --save-dev HTML-webpack-plugin
+const HtmlWebpackPlugin=require('html-webpack-plugin');//Write a command in CLI npm install --save-dev html-webpack-plugin
 
 module.exports={
     mode: 'development',
