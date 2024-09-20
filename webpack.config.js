@@ -38,3 +38,8 @@ module.exports={
         ]
     }
 };
+//N.B After finishing up the project and if the index.html(where github uses to run it) is in the dist location then you have to deploy it from
+//gh-pages and you can do it by using the following commands on the terminal, but first remove the dist from .gitignore then used this commands
+//1. git add dist && git commit -m "Initial dist subtree commit"
+//2. git subtree push --prefix dist origin gh-pages
+//Finally when you are deploying the project in the github settings>>pages make the branches to gh-pages and save it
